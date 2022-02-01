@@ -155,7 +155,7 @@
     <div class="banner-area">
         <div class="content">
             <div class="left">
-                <h2>Liberação antecipada do FGTS</h2>
+                <h2 ><span class="typed"></span></h2>
                 <p>O Empréstimo que já nasce pago*</p>
                 <p>O dinheiro que já é seu por direito, na sua conta bancária mais rápido e sem burocracia!</p>
                 <div class="btn-area">
@@ -175,7 +175,7 @@
                     <div class="logo-area">
                         <img src="{{ info.data.logoPreto }}" alt="{{ info.data.empresa }}">
                     </div>
-                    <h3>Realizar seus sonhos nunca foi tão fácil!</h3>
+                    <h3 class="typed">Realizar seus sonhos nunca foi tão fácil!.</h3>
                     <p>Uma nova modalidade de empréstimo para pessoa física</p>
                 </div>
             </div>
@@ -293,6 +293,77 @@
 
     <div ui-view></div>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box-area">
+                        <div class="title-area">
+                            <p>Quer falar com a gente</p>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    <a href="#">Rua Siqueira Campos, 98 - Centro - Guarulhos - SP</a>
+                                </li>
+                                <li>
+                                    <a href="">CNPJ: 123456789</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> (11) 2442-7497</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> contato@rvcred.com.br</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box-area rede-area">
+                        <div class="title-area">
+                            <p>Nossas redes sociais</p>
+                        </div>
+                        <div class="space">
+                            <div class="rede-text">
+                                <p>Fique por dentro das dicas de sua agência pessoal de serviços financeiros</p>
+                            </div>
+                            <div class="icons-area">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="box-area rede-area">
+                        <div class="title-area">
+                            <p>Garantia extra?</p>
+                        </div>
+                        <div class="rede-text">
+                            <p>Precisando de uma graninha extra? Faça agora uma solicitação. É rápido, prático e seguro!</p>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            <div class="copy-area">
+                <p>2022 © Copyright RvCred. Todos direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
     <!--Footer End-->
 
     <!--Scroll Top-->
@@ -345,6 +416,7 @@
     <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="app/js/app.js"></script>
     <script src="app/js/controllers/homeController.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
 
          function handleMobileMenu() {
@@ -358,6 +430,13 @@
             }
 
         }
+
+        var typed = new Typed('.typed', {
+            strings: ["Liberação antecipada do FGTS", "A RvCred agora é digital.", "Parcelas que cabem no seu bolso!", "Fujas das burocracias"],
+            typeSpeed: 60,
+            backSpeed: 30,
+            loop: true,
+        });
     </script>
         
 </body>

@@ -16,6 +16,12 @@ header .mobile-menu-content nav ul li a {
 header .mobile-menu-content .footer ul li a {
     color: #1d9684;
 }
+header.header-appear .desktop-menu ul li a {
+    color: #1d9684;
+}
+header.header-appear .desktop-menu ul li a::before {
+    background: #1d9684;
+}
 
 /* banner */
 .banner-area::before {

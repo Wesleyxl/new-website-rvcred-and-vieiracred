@@ -15,6 +15,13 @@ header .mobile-menu-content nav ul li a {
 header .mobile-menu-content .footer ul li a {
     color: #346ee9;
 }
+header.header-appear .desktop-menu ul li a {
+    color: #346ee9;
+}
+header.header-appear .desktop-menu ul li a::before {
+    color: #346ee9;
+}
+
 
 /* banner */
 .banner-area::before {
@@ -47,16 +54,6 @@ header .mobile-menu-content .footer ul li a {
 }
 .about-fgts .description-area .title-area p {
     color: #346ee9;
-}
-
-@media (max-width: 600px) {
-    .about-fgts .right .img-area {
-        max-width: 500px;
-        width: 100%;
-    }
-    .about-fgts .right .img-area img {
-        width: 100%;
-    } 
 }
 /** end about FGTS **/
 
