@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="pt-br" ng-app="myapp">
+<head>
+<script type="text/javascript" src="google/gtag.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Page Title -->
+    <title></title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Cube Portfolio -->
+    <link rel="stylesheet" href="css/cubeportfolio.min.css">
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/navigation.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{info.data.style}}">
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+    <!--Loader Start-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-blocks">
+                <span class="block-1"></span>
+                <span class="block-2"></span>
+                <span class="block-3"></span>
+                <span class="block-4"></span>
+                <span class="block-5"></span>
+                <span class="block-6"></span>
+                <span class="block-7"></span>
+                <span class="block-8"></span>
+                <span class="block-9"></span>
+                <span class="block-10"></span>
+                <span class="block-11"></span>
+                <span class="block-12"></span>
+                <span class="block-13"></span>
+                <span class="block-14"></span>
+                <span class="block-15"></span>
+                <span class="block-16"></span>
+            </div>
+        </div>
+    </div>
+    <!--Loader End-->
+
+    <!-- header -->
+    <header>
+        <div class="desktop-menu">
+            <nav>
+                <div class="logo">
+                    <img src="{{ info.data.logoPreto }}" alt="{{ info.data.empresa }}">
+                </div>
+                <ul>
+                    <li>
+                        <a href="#home">Início</a>
+                    </li>
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#dicas">Dicas</a>
+                    </li>
+                    <li>
+                        <a href="#fgts">FGTS</a>
+                    </li>
+                    <li>
+                        <a href="#duvidas">Dúvidas</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-menu">
+            <div class="header">
+                <div class="logo-area">
+                    <img src="{{ info.data.logoPreto }}" alt="{{ info.data.empresa }}">
+                </div>
+                <div class="btn-area">
+                    <button onclick="handleMobileMenu()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu-content" class="mobile-menu-content hide">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home">Início</a>
+                    </li>
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#dicas">Dicas</a>
+                    </li>
+                    <li>
+                        <a href="#fgts">FGTS</a>
+                    </li>
+                    <li>
+                        <a href="#duvidas">Dúvidas</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer">
+                <ul>
+                    <li>
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+                <p>2022 <i class="fa fa-copyright" aria-hidden="true"></i> Copyright RvCred. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- banner area-->
+    <div class="banner-area">
+        <div class="content">
+            <div class="left">
+                <h2>Liberação antecipada do FGTS</h2>
+                <p>O Empréstimo que já nasce pago*</p>
+                <p>O dinheiro que já é seu por direito, na sua conta bancária mais rápido e sem burocracia!</p>
+                <div class="btn-area">
+                    <button>Simule grátis</button>
+                </div>
+            </div>
+            <div class="right"></div>
+        </div>
+    </div>
+    <!-- end banner area-->
+
+    <!-- about fgts area -->
+    <div class="about-fgts">
+        <div class="container">
+            <div class="content">
+                <div class="title-area">
+                    <div class="logo-area">
+                        <img src="{{ info.data.logoPreto }}" alt="{{ info.data.empresa }}">
+                    </div>
+                    <h3>Realizar seus sonhos nunca foi tão fácil!</h3>
+                    <p>Uma nova modalidade de empréstimo para pessoa física</p>
+                </div>
+            </div>
+            <div class="description-area">
+                <div class="left">
+                    <div class="title-area">
+                        <p>Por que fazer Empréstimo com Garantia de Saque do FGTS?</p>
+                    </div>
+                    <div class="text-area">
+                        <p>O empréstimo com garantia de saque do FGTS é o único que não compromete o seu orçamento mensal e todos que tem o FGTS ativo e inativo tem esse direto, inclusive negativados!</p>
+                    </div>
+                    <div class="title-area">
+                        <p>Todo mundo está aproveitando... só falta você!</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="img-area">
+                        <img src="images/new/ftgs-area.png" alt="{{ info.data.empresa }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about fgts area -->
+
+    <!-- benefits -->
+    <div class="benefits-area">
+        <div class="container">
+            <div class="title-area">
+                <h3>Vantagens Exclusivas</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-area">
+                        <div class="card-logo">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-title">
+                            <h2>Crédito</h2>
+                        </div>
+                        <div class="text-area">
+                            <p>Sem consulta ao SPC e SERASA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-area">
+                        <div class="card-logo">
+                            <i class="fa fa-percent" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-title">
+                            <h2>Juros</h2>
+                        </div>
+                        <div class="text-area">
+                            <p>Taxas de juros competitivas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-area">
+                        <div class="card-logo">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-title">
+                            <h2>Orçamento</h2>
+                        </div>
+                        <div class="text-area">
+                            <p>Não compromete o orçamento mensal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-area">
+                        <div class="card-logo">
+                            <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-title">
+                            <h2>Linhas de crédito</h2>
+                        </div>
+                        <div class="text-area">
+                            <p>Não impacta na contratação de outras linhas de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-area">
+                        <div class="card-logo">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-title">
+                            <h2>Parcelas</h2>
+                        </div>
+                        <div class="text-area">
+                            <p>Até cinco parcelas anuais do saque aniversário</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-area">
+                        <div class="card-logo">
+                            <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-title">
+                            <h2>Pagamento</h2>
+                        </div>
+                        <div class="text-area">
+                            <p>Anual e mediante o débito direto na(s) conta(s) do FGTS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end benefits -->
+
+    <div ui-view></div>
+
+    <!--Footer End-->
+
+    <!--Scroll Top-->
+    <a class="scroll-top-arrow" href="javascript:void(0);"><i class="fa fa-angle-up"></i></a>
+    <a class="scroll-top-arrow" href="javascript:void(0);"><i class="fa fa-angle-up"></i></a>
+    <!--Scroll Top End-->
+
+
+    <!-- Optional JavaScript -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <!-- isotop gallery -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- cube portfolio gallery -->
+    <script src="js/jquery.cubeportfolio.min.js"></script>
+    <!-- owl carousel slider -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- text rotate -->
+    <script src="js/morphext.min.js"></script>
+    <!-- particles -->
+    <script src="js/particles.min.js"></script>
+    <!-- parallax Background -->
+    <script src="js/parallaxie.min.js"></script>
+    <!-- fancybox popup -->
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- fancybox popup -->
+    <script src="js/wow.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION EXTENSIONS -->
+    <script src="rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- map -->
+    <!--<script src="http://maps.google.com/maps/api/js?key=AIzaSyB6YJu2gWq_4ABpOPGLy0c4JKg82U7a_JM"></script>-->
+    <!--<script src="js/map.js"></script>-->
+    <!-- custom script -->
+    <script src="js/script.js"></script>
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/controllers/homeController.js"></script>
+    <script>
+
+         function handleMobileMenu() {
+        
+            if ($("#mobile-menu-content").hasClass("hide")) {
+                $("#mobile-menu-content").removeClass("hide");
+                $("#mobile-menu-content").addClass("show");
+            } else {
+                $("#mobile-menu-content").addClass("hide");
+                $("#mobile-menu-content").removeClass("show");
+            }
+
+        }
+    </script>
+        
+</body>
+</html>
+
+<style>
+    .gradient-text1,
+    .gradient-bg1 {
+        background-image: linear-gradient(to right, #346ee9 2%, #5b8aed 82%)
+    }
+</style>

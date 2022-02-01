@@ -1,0 +1,95 @@
+header .desktop-menu ul li a {
+    color: #FFF;
+}
+
+.header-appear .nav-box-round .navbar-nav .nav-link.active {
+    background-color: #1d9684 !important;
+    color: #ffffff !important;
+}
+.header-appear .nav-box-round .navbar-nav .nav-link:hover {
+    color: #1d9684 !important;
+}
+header .mobile-menu-content nav ul li a {
+    color: #1d9684;
+}
+
+header .mobile-menu-content .footer ul li a {
+    color: #1d9684;
+}
+
+/* banner */
+.banner-area::before {
+    background: rgba(0, 0, 0, .4);
+}
+.banner-area .content .left p {
+    font-size: 24px;
+    color: #fbb375;
+}
+.banner-area .content .left p:nth-child(2n) {
+    color: #1d9684;
+}
+.banner-area .btn-area button {
+   background: #1d9684;
+   color: #fbb375;
+}
+.banner-area .btn-area button:hover {
+    color: #1d9684;
+    background: #fbb375;
+}
+/* end banner */
+
+/** about FGTS **/
+.about-fgts .content .title-area h3 {
+    color: #1d9684;
+}
+.about-fgts .content .title-area p {
+    color: #fbb375;
+}
+.about-fgts .description-area .title-area p {
+    color: #1d9684;
+}
+/** end about FGTS **/
+
+/** benefits **/
+.benefits-area .title-area h3 {
+    color: #1d9684;
+}
+.benefits-area .card-area .card-logo i {
+    color: #1d9684;
+}
+.benefits-area .card-area .card-title h2 {
+    color: #1d9684;
+}
+/** end benefits **/
+
+
+.btn.btn-gradient{
+    background-image: linear-gradient(to right, #1d9684 0%, #000000 51%, #1d9684 100%) !important;
+}
+
+.gradient-text1{
+    background-image: linear-gradient(to right, #1d9684 2%, #61b6a9 82%) !important;
+}
+
+.third-color {
+    color: #1d9684 !important;
+}
+
+.footer-social li a:hover {
+    background-color: #1d9684 !important;
+    color: #ffffff;
+}
+
+.scroll-top-arrow {
+
+    background-image: linear-gradient(to right, #1d9684 0%, #000000 60%, #1d9684 100%) !important;
+}
+
+.bg-img1 {
+    /*background: url(../images/rvcred/bg-img1.jpg);*/
+}
+
+.wexim .tp-bullet.selected .tp-bullet-inner
+{
+    background: #1d9684 !important;
+}

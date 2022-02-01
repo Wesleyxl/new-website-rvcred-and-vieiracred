@@ -1,0 +1,37 @@
+.header-appear .nav-box-round .navbar-nav .nav-link.active {
+    background-color: #003d6b !important;
+    color: #ffffff !important;
+}
+.header-appear .nav-box-round .navbar-nav .nav-link:hover {
+    color: #003d6b !important;
+}
+.btn.btn-gradient{
+    background-image: linear-gradient(to right, #003d6b 0%, #078ef4 51%, #003d6b 100%) !important;
+}
+
+.gradient-text1{
+    background-image: linear-gradient(to right, #003d6b 2%, #078ef4 82%) !important;
+}
+
+.third-color {
+    color: #003d6b !important;
+}
+
+.footer-social li a:hover {
+    background-color: #003d6b !important;
+    color: #ffffff;
+}
+
+.scroll-top-arrow {
+
+    background-image: linear-gradient(to right, #003d6b 0%, #078ef4 60%, #003d6b 100%) !important;
+}
+
+.bg-img1 {
+    /*background: url(../images/rvcred/bg-img1.jpg);*/
+}
+
+.wexim .tp-bullet.selected .tp-bullet-inner
+{
+    background: #003d6b !important;
+}
