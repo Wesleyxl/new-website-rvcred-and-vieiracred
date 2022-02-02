@@ -29,6 +29,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="{{info.data.style}}">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -152,144 +156,176 @@
     <!-- end header -->
 
     <!-- banner area-->
-    <div class="banner-area">
-        <div class="content">
-            <div class="left">
-                <h2 ><span class="typed"></span></h2>
-                <p>O Empréstimo que já nasce pago*</p>
-                <p>O dinheiro que já é seu por direito, na sua conta bancária mais rápido e sem burocracia!</p>
-                <div class="btn-area">
-                    <button>Simule grátis</button>
+    <section>
+        <div class="banner-area">
+            <div class="content">
+                <div class="left">
+                    <h2 ><span class="typed"></span></h2>
+                    <p>O Empréstimo que já nasce pago*</p>
+                    <p>O dinheiro que já é seu por direito, na sua conta bancária mais rápido e sem burocracia!</p>
+                    <div class="btn-area">
+                        <button>Simule grátis</button>
+                    </div>
                 </div>
+                <div class="right"></div>
             </div>
-            <div class="right"></div>
         </div>
-    </div>
+    </section>
     <!-- end banner area-->
 
     <!-- about fgts area -->
-    <div class="about-fgts">
-        <div class="container">
-            <div class="content">
-                <div class="title-area">
-                    <div class="logo-area">
-                        <img src="{{ info.data.logoPreto }}" alt="{{ info.data.empresa }}">
-                    </div>
-                    <h3 class="typed">Realizar seus sonhos nunca foi tão fácil!.</h3>
-                    <p>Uma nova modalidade de empréstimo para pessoa física</p>
-                </div>
-            </div>
-            <div class="description-area">
-                <div class="left">
+    <section>
+        <div class="about-fgts">
+            <div class="container">
+                <div class="content">
                     <div class="title-area">
-                        <p>Por que fazer Empréstimo com Garantia de Saque do FGTS?</p>
-                    </div>
-                    <div class="text-area">
-                        <p>O empréstimo com garantia de saque do FGTS é o único que não compromete o seu orçamento mensal e todos que tem o FGTS ativo e inativo tem esse direto, inclusive negativados!</p>
-                    </div>
-                    <div class="title-area">
-                        <p>Todo mundo está aproveitando... só falta você!</p>
+                        <div class="logo-area">
+                            <img src="{{ info.data.logoPreto }}" alt="{{ info.data.empresa }}">
+                        </div>
+                        <h3 class="typed">Realizar seus sonhos nunca foi tão fácil!.</h3>
+                        <p>Uma nova modalidade de empréstimo para pessoa física</p>
                     </div>
                 </div>
-                <div class="right">
-                    <div class="img-area">
-                        <img src="images/new/ftgs-area.png" alt="{{ info.data.empresa }}">
+                <div class="description-area">
+                    <div class="left">
+                        <div class="title-area">
+                            <p>Por que fazer Empréstimo com Garantia de Saque do FGTS?</p>
+                        </div>
+                        <div class="text-area">
+                            <p>O empréstimo com garantia de saque do FGTS é o único que não compromete o seu orçamento mensal e todos que tem o FGTS ativo e inativo tem esse direto, inclusive negativados!</p>
+                        </div>
+                        <div class="title-area">
+                            <p>Todo mundo está aproveitando... só falta você!</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="img-area">
+                            <img src="images/new/ftgs-area.png" alt="{{ info.data.empresa }}">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- end about fgts area -->
 
     <!-- benefits -->
-    <div class="benefits-area">
-        <div class="container">
-            <div class="title-area">
-                <h3>Vantagens Exclusivas</h3>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card-area">
-                        <div class="card-logo">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-title">
-                            <h2>Crédito</h2>
-                        </div>
-                        <div class="text-area">
-                            <p>Sem consulta ao SPC e SERASA</p>
+    <section>
+        <div class="benefits-area">
+            <div class="container">
+                <div class="title-area">
+                    <h3>Vantagens Exclusivas</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card-area">
+                            <div class="card-logo">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title">
+                                <h2>Crédito</h2>
+                            </div>
+                            <div class="text-area">
+                                <p>Sem consulta ao SPC e SERASA</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-area">
-                        <div class="card-logo">
-                            <i class="fa fa-percent" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-title">
-                            <h2>Juros</h2>
-                        </div>
-                        <div class="text-area">
-                            <p>Taxas de juros competitivas</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-area">
-                        <div class="card-logo">
-                            <i class="fa fa-money" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-title">
-                            <h2>Orçamento</h2>
-                        </div>
-                        <div class="text-area">
-                            <p>Não compromete o orçamento mensal</p>
+                    <div class="col-md-4">
+                        <div class="card-area">
+                            <div class="card-logo">
+                                <i class="fa fa-percent" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title">
+                                <h2>Juros</h2>
+                            </div>
+                            <div class="text-area">
+                                <p>Taxas de juros competitivas</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-area">
-                        <div class="card-logo">
-                            <i class="fa fa-credit-card" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-title">
-                            <h2>Linhas de crédito</h2>
-                        </div>
-                        <div class="text-area">
-                            <p>Não impacta na contratação de outras linhas de crédito</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-area">
-                        <div class="card-logo">
-                            <i class="fa fa-money" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-title">
-                            <h2>Parcelas</h2>
-                        </div>
-                        <div class="text-area">
-                            <p>Até cinco parcelas anuais do saque aniversário</p>
+                    <div class="col-md-4">
+                        <div class="card-area">
+                            <div class="card-logo">
+                                <i class="fa fa-money" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title">
+                                <h2>Orçamento</h2>
+                            </div>
+                            <div class="text-area">
+                                <p>Não compromete o orçamento mensal</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-area">
-                        <div class="card-logo">
-                            <i class="fa fa-credit-card" aria-hidden="true"></i>
+                    <div class="col-md-4">
+                        <div class="card-area">
+                            <div class="card-logo">
+                                <i class="fa fa-credit-card" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title">
+                                <h2>Linhas de crédito</h2>
+                            </div>
+                            <div class="text-area">
+                                <p>Não impacta na contratação de outras linhas de crédito</p>
+                            </div>
                         </div>
-                        <div class="card-title">
-                            <h2>Pagamento</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-area">
+                            <div class="card-logo">
+                                <i class="fa fa-money" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title">
+                                <h2>Parcelas</h2>
+                            </div>
+                            <div class="text-area">
+                                <p>Até cinco parcelas anuais do saque aniversário</p>
+                            </div>
                         </div>
-                        <div class="text-area">
-                            <p>Anual e mediante o débito direto na(s) conta(s) do FGTS</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-area">
+                            <div class="card-logo">
+                                <i class="fa fa-credit-card" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title">
+                                <h2>Pagamento</h2>
+                            </div>
+                            <div class="text-area">
+                                <p>Anual e mediante o débito direto na(s) conta(s) do FGTS</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- end benefits -->
+    
+    <!-- simulation area -->
+    <section>
+        <div class="simulation-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <div class="text-area">
+                                <p>Faça sua simulação agora e <span>solicite seu empréstimo</span> com garantia do saque aniversário do FGTS.</p>
+                            </div>
+                            <div class="btn-area">
+                                <a href="#">Simule grátis</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-area">
+                            <img src="images/new/simulation-area.png" alt="{{ info.data.empresa }}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end simulation area -->
 
     <div ui-view></div>
 
@@ -305,16 +341,16 @@
                         <div class="content">
                             <ul>
                                 <li>
-                                    <a href="#">Rua Siqueira Campos, 98 - Centro - Guarulhos - SP</a>
+                                    <a href="{{ info.data.links.endereco }}">{{ info.data.endereco }}</a>
                                 </li>
                                 <li>
-                                    <a href="">CNPJ: 123456789</a>
+                                    <a href="{{ info.data.links.site }}">{{ info.data.cnpj }}</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> (11) 2442-7497</a>
+                                    <a href="{{ info.data.links.telefone }}"><i class="fa fa-phone" aria-hidden="true"></i> {{ info.data.telefone }}</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> contato@rvcred.com.br</a>
+                                    <a href="{{ info.data.socialMedia.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i> {{ info.data.email }}</a>
                                 </li>
                             </ul>
                         </div>
@@ -332,16 +368,16 @@
                             <div class="icons-area">
                                 <ul>
                                     <li>
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="{{ info.data.socialMedia.facebook }}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href="{{ info.data.socialMedia.instagram }}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="{{ info.data.socialMedia.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                                        <a href="{{ info.data.socialMedia.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -360,7 +396,7 @@
                 </div>
             </div>
             <div class="copy-area">
-                <p>2022 © Copyright RvCred. Todos direitos reservados.</p>
+                <p>2022 © Copyright {{ info.data.empresaNome }}. Todos direitos reservados.</p>
             </div>
         </div>
     </footer>

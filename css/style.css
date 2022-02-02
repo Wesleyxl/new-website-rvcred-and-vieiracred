@@ -1,3 +1,6 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 /******* Header ********/
 header {
     position: fixed;
@@ -324,6 +327,56 @@ header .mobile-menu-content .footer ul li a {
 }
 /******* End Benefits ********/
 
+/* ===================================
+    Simulation
+====================================== */
+.simulation-area {
+    margin: 25px 0;
+}
+.simulation-area .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.simulation-area .content .text-area p {
+    font-size: 25px;
+}
+.simulation-area .content .text-area p span {
+    font-weight: bold;
+}
+.simulation-area .content .btn-area {
+    width: 100%;
+    max-width: 430px;
+    height: 60px;
+    margin-top: 30px;
+}
+.simulation-area .content .btn-area a {
+    transition: .5s ease;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.simulation-area .content .btn-area a:hover {
+    text-decoration: none;
+}
+.simulation-area .img-area {
+    width: 100%;
+    max-width: 625px;
+}
+.simulation-area .img-area img {
+    width: 100%;
+}
+/* ===================================
+    End Simulation
+====================================== */
+
 /******* FOOTER ********/
 footer {
     width: 100%;
@@ -353,7 +406,6 @@ footer .content ul li {
 footer .content ul li a {
     font-size: 16px;
     color: #FFF;
-    opacity: .5;
 }
 footer .box-area .space {
     display: flex;
@@ -362,7 +414,7 @@ footer .box-area .space {
     height: 100%;
 }
 footer .content ul li a:hover {
-    opacity: 1;
+    font-weight: bold;
     text-decoration: none;
     color: #FFF;
 } 
@@ -376,6 +428,7 @@ footer .box-area .icons-area ul li a {
     opacity: .5;
 }
 footer .box-area .icons-area ul li a:hover {
+    font-weight: bold;
     opacity: 1;
 }
 footer .copy-area {

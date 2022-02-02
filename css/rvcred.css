@@ -68,6 +68,19 @@ header.header-appear .desktop-menu ul li a::before {
 }
 /** end benefits **/
 
+/** simulation **/
+.simulation-area .content .text-area p span {
+    color: #1d9684;
+}
+.simulation-area .content .btn-area a {
+    background: #1d9684;
+    color: #fbb375;
+}
+.simulation-area .content .btn-area a:hover {
+    color: #1d9684;
+    background: #fbb375;
+}
+/** end simulation **/
 
 .btn.btn-gradient{
     background-image: linear-gradient(to right, #1d9684 0%, #000000 51%, #1d9684 100%) !important;

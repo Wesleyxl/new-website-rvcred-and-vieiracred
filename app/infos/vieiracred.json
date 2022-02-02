@@ -1,68 +1,33 @@
 {
-  "style": "css/vieiracred.css",
-  "empresa": "VieiraCred - Empréstimo para aposentados e pensionistas do INSS",
-  "empresaNome": "VieiraCred",
-  "logoPreto": "images/vieiracred/logo_preto.png",
-  "logoBranco": "images/vieiracred/logo_branco.png",
-  "favicon": "images/vieiracred/favicon.ico",
-  "logoCSS": "max-width:none !important",
-  "endereco": "Rua Diogo Farias, 20 - Centro - Guarulhos - SP",
-  "telefone": "(11) 4372-8780",
-  "whatsapp": "(11) 98080-2497",
-  "email": "contato@vieiracred.com.br",
-  "socialMedia": {
-    "facebook": "https://www.facebook.com/vieiracred.if",
-    "linkedin": "https://www.linkedin.com/company/vieiracred",
-    "instagram": "https://www.instagram.com/vieiracred.if",
-    "google": "https://g.page/vieiracred?gm",
-    "email": "mailto:contato@vieiracred.com.br"
-  },
-  "firstArea": {
-    "slider": {
-      "one": "images/vieiracred/banner1.jpg",
-      "two": "images/vieiracred/banner2.jpg",
-      "three": "images/vieiracred/banner3.jpg"
+    "style": "css/vieiracred.css",
+    
+    "empresa": "VieiraCred - Empréstimo para aposentados e pensionistas do INSS",
+    "empresaNome": "VieiraCred",
+    "cnpj": "CNPJ: 123456789",
+
+    "logoPreto": "images/vieiracred/logo_preto.png",
+    "logoBranco": "images/vieiracred/logo_branco.png",
+    "favicon": "images/vieiracred/favicon.ico",
+    "logoCSS": "max-width:none !important",
+
+    "endereco": "Rua Diogo Farias, 20 - Centro - Guarulhos - SP",
+    "telefone": "(11) 4372-8780",
+    "whatsapp": "(11) 98080-2497",
+    "email": "contato@vieiracred.com.br",
+
+    "links": {
+        "telefone": "",
+        "endereco": "",
+        "whatsapp": "",
+        "fgts": "",
+        "inss": ""
     },
-    "basicInfo": "Uma empresa com visão para o futuro",
-    "textArea": {
-      "one": "Somos uma empresa de intermediação financeira, na área de empréstimos consignados com certificação da FEBRABAN, autorizada a operar pelo Banco Central do Brasil, conforme Resolução 3.110.",
-      "two": "Trabalhamos com crédito consignado para Servidores Públicos Federais, Estaduais, Municipais, Aposentados e Pensionistas do INSS.",
-      "three": "A nossa empresa propõe-se a atuar de forma diferenciada, procurando atender a necessidade do seu cliente."
-    }
-  },
-  "secondArea": {
-    "company": "Empréstimo consignado para aposentados e pensionistas do INSS",
-    "basicInfo": "Uma empresa com visão para o futuro",
-    "textArea": {
-      "one": "Somos uma empresa de intermediação financeira, na área de empréstimos consignados com certificação da FEBRABAN, autorizada a operar pelo Banco Central do Brasil, conforme Resolução 3.110.",
-      "two": "Trabalhamos com crédito consignado para Servidores Públicos Federais, Estaduais, Municipais, Aposentados e Pensionistas do INSS.",
-      "three": "A nossa empresa propõe-se a atuar de forma diferenciada, procurando atender a necessidade do seu cliente."
-    }
-  },
-  "thirdArea": {
-    "titleOne": "Aposentados e pensionistas",
-    "textOne": "Intermediamos seu empréstimo buscando a melhor parcela, trabalhamos com mais de 20 bancos em todo o Brasil",
-    "titleTwo": "Refinanciamento",
-    "textTwo": "Está com a sua margem tomada e precisa de dinheiro? Nós temos a solução!",
-    "titleThree": "Novos aposentados",
-    "textThree": "Está com dificuldades para conseguir exercer o seu direito a consignado após 3 meses? Nós resolvemos!"
-  },
-  "fourthArea": {
-    "titleTiny": "titleTiny",
-    "titleBig": "Simulações de empréstimos",
-    "textShort": "titleTwo",
-    "textTwo": "textTwo",
-    "titleThree": "titleThree",
-    "textThree": "textThree"
-  },
-  "fifthArea": {
-    "titleTiny": "titleTiny",
-    "titleBig": "titleBig",
-    "textShort": "titleTwo",
-    "textTwo": "textTwo",
-    "titleThree": "titleThree",
-    "textThree": "textThree"
-  }
 
-
+    "socialMedia": {
+        "facebook": "https://www.facebook.com/vieiracred.if",
+        "linkedin": "https://www.linkedin.com/company/vieiracred",
+        "instagram": "https://www.instagram.com/vieiracred.if",
+        "google": "https://g.page/vieiracred?gm",
+        "email": "mailto:contato@vieiracred.com.br"
+    }
 }
