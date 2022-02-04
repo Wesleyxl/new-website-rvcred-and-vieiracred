@@ -68,6 +68,15 @@ header.header-appear .desktop-menu ul li a::before {
 }
 /** end benefits **/
 
+/* process */
+.process .title-area h2 {
+    color: #1d9684;
+}
+.process .title-area p {
+    color: #fbb375;
+}
+/* end process */
+
 /** simulation **/
 .simulation-area .content .text-area p span {
     color: #1d9684;

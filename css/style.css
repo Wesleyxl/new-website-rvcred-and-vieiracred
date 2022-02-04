@@ -327,6 +327,32 @@ header .mobile-menu-content .footer ul li a {
 }
 /******* End Benefits ********/
 
+
+/* ===================================
+    Process
+====================================== */
+.process {
+    margin: 0 30px;
+}
+.process .title-area {
+    text-align: center;
+}
+.process .title-area h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+.process .title-area {
+    max-width: 650px;
+    margin: 0 auto;
+}
+.process .title-area p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* ===================================
+    end Process
+====================================== */
+
 /* ===================================
     Simulation
 ====================================== */

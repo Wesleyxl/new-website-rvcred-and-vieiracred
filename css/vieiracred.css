@@ -57,6 +57,15 @@ header.header-appear .desktop-menu ul li a::before {
 }
 /** end about FGTS **/
 
+/* process */
+.process .title-area h2 {
+    color: #346ee9;
+}
+.process .title-area p {
+    color: #000;
+}
+/* end process */
+
 /** benefits **/
 .benefits-area .title-area h3 {
     color: #346ee9;
